@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 class="hotel-link"
                 target="_blank"
                 rel="noreferrer noopener"
-                >view details
+                >Ver detalles
                 <svg width="24" height="24">
                     <use href="./img/icon-defs.svg#icon-arrow-right"></use>
                   </svg>

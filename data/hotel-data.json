@@ -1,42 +1,42 @@
 {
     "hotels": [
       {
-        "name": "Auckland City Hotel - Hobson St",
+        "name": "aucklandCityHotelHobsonSt",
         "price": "$123.00",
-        "address": "157 Hobson Street, Auckland Central, Auckland 1010, New Zealand",
+        "address": "157 Hobson Street, Auckland Central, Auckland 1010, Nueva Zelanda",
         "image": "../img/hotel-1.jpg"
       },
       {
-        "name": "Edgewater - Wanaka",
+        "name": "edgewaterWanaka",
         "price": "$148.00",
-        "address": "54 Sargood Drive, Wanaka 9343, New Zealand",
+        "address": "54 Sargood Drive, Wanaka 9343, Nueva Zelanda",
         "image": "../img/hotel-2.jpg"
       },
       {
-        "name": "Rotorua Citizens Club",
+        "name": "rotoruaCitizensClub",
         "price": "$110.00",
-        "address": "1146 Rangiuru Street, Rotorua 3010, New Zealand",
+        "address": "1146 Rangiuru Street, Rotorua 3010, Nueva Zelanda",
         "image": "../img/hotel-3.jpg"
 
       },
       {
-        "name": "The Manse",
+        "name": "La Manse",
         "price": "$143.00",
-        "address": "3519 State Highway 50 Rd 1, Hastings 4171, New Zealand",
+        "address": "3519 State Highway 50 Rd 1, Hastings 4171, Nueva Zelanda",
         "image": "../img/hotel-4.jpg"
 
       },
       {
-        "name": "Solitaire Lodge",
+        "name": "Lodge Solitare",
         "price": "$159.00",
-        "address": "16 Ronald Road, Lake Tarawera, Rotorua 3076, New Zealand",
+        "address": "16 Ronald Road, Lago Tarawera, Rotorua 3076, Nueva Zelanda",
         "image": "../img/hotel-5.jpg"
 
       },
       {
-        "name": "Airedale Boutique Suites",
+        "name": "Suites boutique de Aireedale",
         "price": "$130.00",
-        "address": "380 Queen Street, Auckland Central, Auckland 1010, New Zealand",
+        "address": "380 Queen Street, Auckland Central, Auckland 1010, Nueva Zelanda",
         "image": "../img/hotel-6.jpg"
 
       }
