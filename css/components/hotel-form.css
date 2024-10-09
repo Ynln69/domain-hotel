@@ -36,6 +36,7 @@
   text-align: center;
   color: #fff;
 }
+
 .form-group {
   @media (min-width: 834px) {
     &:nth-child(1) {
@@ -65,12 +66,34 @@
 .form-group input[type="date"] {
   width: 100%;
   border: 1px solid rgba(135, 184, 250, 0.2);
+  outline: none;
   padding: 10px 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 
   background-color: transparent;
   color: var(--second-color);
   font-weight: 700;
 }
+.custom-select-container {
+  position: relative;
+  width: 100%;
+  &::after {
+    content: url(../../img/eva_arrow-down-fill.svg);
+    font-size: 14px;
+    color: var(--accent-color);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+}
+.custom-select option {
+  background-color: var(--bg-color);
+}
+
 .check-availability-btn {
   width: 100%;
   border: 1px solid rgba(135, 184, 250, 0.2);

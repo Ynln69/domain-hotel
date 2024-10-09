@@ -67,7 +67,7 @@
           <h2 class="hotel-form-title">
             Encuentra el hotel perfecto para tu estadía
           </h2>
-          <form action="/check-availability" method="post" class="hotel-form">
+          <form id="hotel-form" class="hotel-form">
             <div class="form-group">
               <label for="guests">Guests</label>
               <div class="custom-select-container">
@@ -82,7 +82,7 @@
             <div class="form-group">
               <label for="room">Habitación</label>
               <div class="custom-select-container">
-                <select id="room" name="room">
+                <select id="room" name="room" class="custom-select">
                   <option value="classic">Habitación clásica</option>
                   <option value="deluxe">Habitación de lujo</option>
                   <option value="suite">suite</option>
@@ -91,26 +91,45 @@
             </div>
             <div class="form-group">
               <label for="checkin-date">Fecha de check-in</label>
-              <input
-                type="date"
-                id="checkin-date"
-                name="checkin-date"
-                value="2024-10-01"
-              />
+              <div class="custom-select-container">
+                <input
+                  type="date"
+                  id="checkin-date"
+                  name="checkin-date"
+                  value="2024-10-01"
+                  class="custom-select"
+                />
+              </div>
             </div>
             <div class="form-group">
               <label for="checkout-date">Fecha de salida</label>
-              <input
-                type="date"
-                id="checkout-date"
-                name="checkout-date"
-                value="2024-10-07"
-              />
+              <div class="custom-select-container">
+                <input
+                  type="date"
+                  id="checkout-date"
+                  name="checkout-date"
+                  value="2024-10-07"
+                  class="custom-select"
+                />
+              </div>
             </div>
             <button type="submit" class="check-availability-btn">
               Verifique la disponibilidad
             </button>
           </form>
+          <div
+            id="loading"
+            style="
+              display: none;
+              margin-top: 10px;
+              font-weight: 600;
+              color: var(--second-color);
+              font-size: 22px;
+              text-align: center;
+            "
+          >
+            Cargando hoteles...
+          </div>
         </div>
       </section>
 
@@ -193,7 +212,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="hotel-section">
         <div class="container">
           <h2 class="visually-hidden">Hoteles</h2>
           <ul class="hotel-list" id="our-hotel"></ul>
@@ -438,6 +457,7 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
+    <script src="./js/form.js"></script>
     <script src="./js/hotel.js"></script>
     <script src="./js/gallery.js"></script>
     <script src="./js/mobile-menu.js"></script>
