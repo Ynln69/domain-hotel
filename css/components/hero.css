@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 65px;
   padding-bottom: 369px;
-  background-image: url(../../img/hero-img-mob.jpg);
+  background-image: url(../../img/hero-img-mob.webp);
 
   background-repeat: no-repeat;
   background-color: #b0e0e6;
@@ -10,7 +10,7 @@
   @media (min-width: 834px) {
     padding-top: 113px;
     padding-bottom: 393px;
-    background-image: url(../../img/hero-img-desk.jpg);
+    background-image: url(../../img/hero-img-desk.webp);
   }
 }
 .hero-title {
@@ -28,7 +28,7 @@
   padding-top: 257px;
   padding-bottom: 12px;
 
-  background-image: url(../../img/hero-img2-desk.jpg);
+  background-image: url(../../img/hero-img2-desk.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #b0e0e6;
