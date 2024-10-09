@@ -4,10 +4,14 @@ html {
 body {
   margin: 0;
 
+  background-color: var(--bg-mobile);
   color: var(--main-color);
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
+  @media (min-width: 834px) {
+    background-color: var(--second-color);
+  }
 }
 .blur-background {
   filter: blur(20px);

@@ -8,6 +8,7 @@
 /* Sections style */
 @import url("./components/header.css");
 @import url("./components/hero.css");
+@import url("./components/hotel-form.css");
 @import url("./components/content-sections.css");
 @import url("./components/contact-form.css");
 @import url("./components/footer.css");

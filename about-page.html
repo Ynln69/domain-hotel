@@ -55,63 +55,6 @@
     </header>
 
     <main class="page-content">
-      <section class="hero">
-        <div class="container hero-container">
-          <h1 class="hero-title">
-            Welcome to the best hotel <b>New Zealand</b>
-          </h1>
-        </div>
-      </section>
-      <section class="hotel-form-section">
-        <div class="hotel-form-wrapper">
-          <h2 class="hotel-form-title">Find the Perfect Hotel for Your Stay</h2>
-          <form action="/check-availability" method="post" class="hotel-form">
-            <div class="form-group">
-              <label for="guests">Guests</label>
-              <div class="custom-select-container">
-                <select id="guests" name="guests" class="custom-select">
-                  <option value="1">1 Adult</option>
-                  <option value="2">2 Adults</option>
-                  <option value="3">3 Adults</option>
-                  <option value="4">4 Adults</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="room">Room</label>
-              <div class="custom-select-container">
-                <select id="room" name="room">
-                  <option value="classic">Classic Room</option>
-                  <option value="deluxe">Deluxe Room</option>
-                  <option value="suite">Suite</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="checkin-date">Check-in Date</label>
-              <input
-                type="date"
-                id="checkin-date"
-                name="checkin-date"
-                value="2024-10-01"
-              />
-            </div>
-            <div class="form-group">
-              <label for="checkout-date">Check-out Date</label>
-              <input
-                type="date"
-                id="checkout-date"
-                name="checkout-date"
-                value="2024-10-07"
-              />
-            </div>
-            <button type="submit" class="check-availability-btn">
-              Check availability
-            </button>
-          </form>
-        </div>
-      </section>
-
       <section class="section about-section">
         <div class="container about-container">
           <h2 class="visually-hidden">About us</h2>
@@ -186,102 +129,7 @@
           </ul>
         </div>
       </section>
-
-      <section class="section">
-        <div class="container">
-          <h2 class="visually-hidden">Hotels</h2>
-          <ul class="hotel-list" id="our-hotel"></ul>
-        </div>
-      </section>
-
-      <section class="section statistics-section">
-        <div class="container">
-          <ul class="statistics-list">
-            <li class="statistics-item">
-              <h3>3,921</h3>
-              <p>HAPPY GUESTS</p>
-            </li>
-            <li class="statistics-item">
-              <h3>1,014</h3>
-              <p>rooms</p>
-            </li>
-            <li class="statistics-item">
-              <h3>689</h3>
-              <p>staffs</p>
-            </li>
-            <li class="statistics-item">
-              <h3>31</h3>
-              <p>destination</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <h2 class="subtitle">gallery</h2>
-          <ul class="gallery-list" id="gallery-list"></ul>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <h2 class="subtitle">reviews</h2>
-          <ul class="comments-list">
-            <li>
-              <div class="comments-thumb">
-                <img
-                  src="./img/user-1.png"
-                  alt="Anastasia Marynec"
-                  class="comments-img"
-                />
-                <h3>Jessica Wells</h3>
-              </div>
-              <p class="main-text">
-                "I found the perfect hotel for my family vacation through this
-                site! The booking process was simple, and the detailed
-                descriptions helped us choose the best option. We had a
-                fantastic stay, and I’ll definitely use this site for future
-                trips!"
-              </p>
-            </li>
-            <li>
-              <div class="comments-thumb">
-                <img
-                  src="./img/user-2.png"
-                  alt="Maria Kowalczyk"
-                  class="comments-img"
-                />
-                <h3>Alex Lindley</h3>
-              </div>
-              <p class="main-text">
-                "The site made it so easy to find a hotel within my budget, and
-                the customer reviews were really helpful. I ended up booking a
-                boutique hotel that exceeded all my expectations. Great service
-                and great options!"
-              </p>
-            </li>
-            <li>
-              <div class="comments-thumb">
-                <img
-                  src="./img/user-3.png"
-                  alt="Vladyslav Nowak"
-                  class="comments-img"
-                />
-                <h3>Maria Ivanova</h3>
-              </div>
-              <p class="main-text">
-                "I loved how user-friendly the website is! I found a last-minute
-                deal on a luxurious hotel, and everything went smoothly. The
-                information on the site was clear, and booking was hassle-free.
-                Highly recommend!"
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
     </main>
-
     <footer class="footer">
       <div class="container footer-container">
         <h2 class="footer-title">domain.com</h2>
@@ -433,8 +281,6 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script src="./js/hotel.js"></script>
-    <script src="./js/gallery.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

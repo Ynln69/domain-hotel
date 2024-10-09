@@ -36,15 +36,14 @@ img {
 .subtitle {
   margin-bottom: 20px;
 
-  font-weight: 900;
-  font-size: 32px;
+  font-family: var(--third-family);
+  font-weight: 700;
+  font-size: 24px;
   text-transform: uppercase;
+  text-align: center;
 }
 .main-text {
-  margin-bottom: 30px;
-
-  width: 100%;
-  max-width: 580px;
+  color: var(--text-color);
 }
 .main-link {
   display: block;
