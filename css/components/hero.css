@@ -34,7 +34,7 @@
   background-color: #b0e0e6;
   background-size: cover;
   @media (min-width: 768px) {
-    padding-top: 410px;
-    padding-bottom: 300px;
+    padding-top: 310px;
+    padding-bottom: 200px;
   }
 }

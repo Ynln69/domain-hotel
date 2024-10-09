@@ -9,7 +9,7 @@
   @media (min-width: 834px) {
     margin: 0;
     position: absolute;
-    top: 66%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, 50%);
   }
